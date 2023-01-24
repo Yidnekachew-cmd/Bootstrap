@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+nav ul {
+  gap: 1rem;
+}
+.first-page {
+  background-image: url("./images/Header-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.first-content {
+  padding-top: 12rem;
+}
+
+.icons {
+  gap: 1rem;
+}
+
+.card-container {
+  background: #e5e5e5;
+  padding: 10rem 0;
+}
+
+.card-img {
+  /* width: 100%; */
+}
