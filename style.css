@@ -40,7 +40,7 @@ nav ul {
   background-color: #ebebff;
 }
 
-.card-roles .counter{
+.card-roles .counter {
   height: 1px;
   width: 1px;
   border-radius: 50%;
@@ -54,4 +54,23 @@ nav ul {
 
 .row a.btn {
   margin-top: 4rem;
+}
+
+.about {
+  margin-top: 5rem;
+  height: 70vh;
+}
+
+.about ul {
+  gap: 1rem;
+}
+
+.about .langs {
+  margin-top: 5rem;
+}
+
+.langs ul li {
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding: 1rem;
 }
