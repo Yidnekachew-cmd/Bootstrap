@@ -82,6 +82,10 @@
 
 👤 **Zewdie**
 
+- GitHub: [@githubhandle](https://github.com/ZewdieMc)
+- Twitter: [@twitterhandle](https://twitter.com/HabtieZewdie)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/zewdie-habtie-sisay-947153172)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
