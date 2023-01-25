@@ -2,6 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+
 }
 nav ul {
   gap: 1rem;
@@ -74,3 +75,47 @@ nav ul {
   border-radius: 8px;
   padding: 1rem;
 }
+
+footer {
+  height: auto;
+  background-color: #6070ff;
+  background-image: url("./images/contact\ form\ background\ shapes@2x.svg");
+  background-size: 95%;
+  background-position-y: 2rem;
+  border-top-left-radius: 6rem;
+  margin-top: 10rem;
+}
+
+footer .container {
+  padding-top: 8rem;
+  width: 40%;
+  padding-bottom: 4rem;
+}
+
+footer form button {
+  margin: 2rem auto 0;
+}
+
+.modal-body {
+  gap: 59px;
+}
+
+.modal-body .project-description {
+  gap: 2rem;
+}
+
+.modal-body .project-description p {
+  flex-basis: 85%;
+}
+
+.project-description ul li {
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #6070ff;
+}
+.modal-body img {
+  height: auto;
+  width: 100%;
+}
+
