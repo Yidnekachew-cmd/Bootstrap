@@ -2,7 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-
+  position: relative;
 }
 nav ul {
   gap: 1rem;
@@ -102,6 +102,15 @@ footer form button {
 
 .modal-body .project-description {
   gap: 2rem;
+}
+
+header nav {
+  position:  fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1;
 }
 
 .modal-body .project-description p {
