@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- <nav class="container-fluid d-flex justify-content-between px-5 py-3">
+      <a href="#" class="h4 text-decoration-none fw-bold text-primary">Our Logo</a>
+      <ul class="list-unstyled d-flex h5 fw-normal">
+        <li>
+          <a class="text-decoration-none text-black" href="#portfolio">Portfolio</a>
+        </li>
+        <li><a class="text-decoration-none text-black" href="#about">About</a></li>
+        <li>
+          <a class="text-decoration-none text-black" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav> -->
+      <nav
+        id="navbar-example2"
+        class="navbar fixed-top navbar-light bg-light px-3"
+      >
+        <a class="navbar-brand" href="#">Our Logo</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example2"
+      data-bs-offset="0"
+      class="scrollspy-example"
+      tabindex="0"
+    >
+      <section class="container-fluid first-page my-4">
+        <div class="container px-5 first-content">
+          <h1 class="h1 fw-bold fs-1 pb-1">
+            We are Yidnekachew <br />
+            and Zewdie Glad to see you!
+          </h1>
+          <p class="fs-5">
+            We are a software developer! We can help you build a product ,
+            feature or website Look through some of our work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact us.
+          </p>
+          <p class="text-primary fs-5">LET’S CONNECT</p>
+          <ul
+            class="d-flex list-unstyled icons align-items-center justify-content-start"
+          >
+            <li><img src="./images/twitter.svg" alt="twitter icon" /></li>
+            <li>
+              <img src="./images/Linkedin icon.svg" alt="Linkedin icon" />
+            </li>
+            <li><img src="./images/M.svg" alt=" icon" /></li>
+            <li><img src="./images/Github.svg" alt="Github icon" /></li>
+            <li><img src="./images/Peace.svg" alt="Peace icon" /></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- work section -->
+      <section
+        id="portfolio"
+        class="container-fluid card-container d-flex flex-column"
+      >
+        <div class="container">
+          <div class="card p-3 rounded card-wrapper">
+            <div class="row">
+              <img
+                class="col-6"
+                src="./images/image1.svg"
+                alt="Card image cap"
+              />
+              <div class="d-flex flex-column align-items-start card-body col-6">
+                <h5 class="card-title h1">Tonic</h5>
+                <ul class="d-flex list-unstyled card-roles align-items-center">
+                  <li class="h5">Canopy</li>
+                  <li class="counter"></li>
+                  <li>Back End Dev</li>
+                  <li class="counter"></li>
+                  <li>2015</li>
+                </ul>
+                <p class="card-text">
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <ul class="tags mb-3" style="margin: 0; padding: 0">
+                  <li class="badge p-2 mx-1">html</li>
+                  <li class="badge p-2 mx-1">css</li>
+                  <li class="badge p-2 mx-1">javaScript</li>
+                </ul>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary mt-2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#tonic-project"
+                >
+                  See Project
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- start modal -->
+        <div
+          class="modal modal-xl fade"
+          id="tonic-project"
+          tabindex="-1"
+          aria-labelledby="Tonic project"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title h1" id="exampleModalLabel">Tonic</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <ul class="d-flex list-unstyled card-roles align-items-center">
+                <li class="h5">Canopy</li>
+                <li class="counter"></li>
+                <li>Back End Dev</li>
+                <li class="counter"></li>
+                <li>2015</li>
+              </ul>
+              <div class="modal-body d-flex flex-column">
+                <img
+                  src="./images/project-detail.png"
+                  alt="tonic project detail"
+                />
+                <div class="project-description d-flex">
+                  <p class="fs-7">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it 1960s with
+                    the releaLorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it 1960s
+                    with the releorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum han printer took a
+                    galley of type and scrambled it 1960s with the releawn
+                    printer took a galley of type and scrambled it 1960s with
+                    the releaLorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it 1960s
+                    with the relea
+                  </p>
+                  <ul class="tags">
+                    <li class="badge p-2 m-1">html</li>
+                    <li class="badge p-2 m-1">css</li>
+                    <li class="badge p-2 m-1">javaScript</li>
+                    <li class="badge p-2 m-1">github</li>
+                    <li class="badge p-2 m-1">ruby</li>
+                    <li class="badge p-2 m-1">Bootstrap</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+            </div>
+          </div>
+        </div>
+        <!-- end of modal -->
+
+        <div class="container">
+          <div class="card p-3 rounded card-wrapper">
+            <div class="row">
+              <div class="d-flex flex-column align-items-start card-body col-6">
+                <h5 class="card-title h1">Multi-Post stories</h5>
+                <ul class="d-flex list-unstyled card-roles align-items-center">
+                  <li class="h5">Facebook</li>
+                  <li class="counter"></li>
+                  <li>Full Stack Dev</li>
+                  <li class="counter"></li>
+                  <li>2015</li>
+                </ul>
+                <p class="card-text">
+                  Experimental content creation feature that allows users to add
+                  to an existing story over the course of a day without spamming
+                  their friends.
+                </p>
+                <ul class="tags mb-3" style="margin: 0; padding: 0">
+                  <li class="badge p-2 mx-1">html</li>
+                  <li class="badge p-2 mx-1">Ruby on rails</li>
+                  <li class="badge p-2 mx-1">css</li>
+                  <li class="badge p-2 mx-1">javaScript</li>
+                </ul>
+                <a href="#" class="btn btn-outline-primary mt-2">See Project</a>
+              </div>
+              <img
+                class="col-6"
+                src="./images/image2.svg"
+                alt="Card image cap"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="card p-3 rounded card-wrapper">
+            <div class="row">
+              <img
+                class="col-6"
+                src="./images/image3.svg"
+                alt="Card image cap"
+              />
+              <div class="d-flex flex-column align-items-start card-body col-6">
+                <h5 class="card-title h1">Facebook 360</h5>
+                <ul class="d-flex list-unstyled card-roles align-items-center">
+                  <li class="h5">Facebook</li>
+                  <li class="counter"></li>
+                  <li>Full Stack Dev</li>
+                  <li class="counter"></li>
+                  <li>2015</li>
+                </ul>
+                <p class="card-text">
+                  Exploring the future of media in Facebook's first Virtual
+                  Reality app; a place to discover and enjoy 360 photos and
+                  videos on Gear VR.
+                </p>
+                <ul class="tags mb-3" style="margin: 0; padding: 0">
+                  <li class="badge p-2 mx-1">html</li>
+                  <li class="badge p-2 mx-1">Ruby on rails</li>
+                  <li class="badge p-2 mx-1">css</li>
+                  <li class="badge p-2 mx-1">javaScript</li>
+                </ul>
+                <a href="#" class="btn btn-outline-primary mt-2">See Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="card p-3 rounded card-wrapper">
+            <div class="row">
+              <div class="d-flex flex-column align-items-start card-body col-6">
+                <h5 class="card-title h1">Uber navigation</h5>
+                <ul class="d-flex list-unstyled card-roles align-items-center">
+                  <li class="h5">Uber</li>
+                  <li class="counter"></li>
+                  <li>Lead developer</li>
+                  <li class="counter"></li>
+                  <li>2018</li>
+                </ul>
+                <p class="card-text">
+                  A smart assistant to make driving more safe, efficient, and
+                  fun by unlocking your most expensive computer. your car.
+                </p>
+                <ul class="tags mb-3" style="margin: 0; padding: 0">
+                  <li class="badge p-2 mx-1">html</li>
+                  <li class="badge p-2 mx-1">Ruby on rails</li>
+                  <li class="badge p-2 mx-1">css</li>
+                  <li class="badge p-2 mx-1">javaScript</li>
+                </ul>
+                <a href="#" class="btn btn-outline-primary mt-2">See Project</a>
+              </div>
+              <img
+                class="col-6"
+                src="./images/image4.svg"
+                alt="Card image cap"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="container-fluid">
+        <div class="container about">
+          <div class="row">
+            <div class="col-6 pt-5 mt-5">
+              <h2 class="h2 fw-bold fs-1">About Myself</h2>
+              <p class="fs-5">
+                Hello we are a software developer! we can help you build a
+                product , feature or website Look through some of my work and
+                experience! If you like what you see and have a project you need
+                coded, don’t hestiate to contact us.
+              </p>
+              <p class="fs-5 text-primary">LET’S CONNECT</p>
+              <ul class="d-flex list-unstyled">
+                <li>
+                  <img src="./images/twitter.svg" alt="twitter icon" />
+                </li>
+                <li>
+                  <img src="./images/Linkedin icon.svg" alt="linkedin icon" />
+                </li>
+                <li><img src="./images/M.svg" alt="icon" /></li>
+                <li><img src="./images/Github.svg" alt="github icon" /></li>
+                <li><img src="./images/Peace.svg" alt="peace icon" /></li>
+              </ul>
+            </div>
+            <div class="col-6 langs">
+              <div class="d-flex justify-content-between pb-4">
+                <h3 class="h3 fs-4">Languages</h3>
+                <img src="./images/down-arrow.svg" alt="down arrow" />
+              </div>
+              <ul class="d-flex list-unstyled">
+                <li>
+                  <img src="./images/Ellipse 1.svg" alt="logo" />
+                  <h4 class="fs-5 mt-2">javaScript</h4>
+                </li>
+                <li>
+                  <img src="./images/Ellipse 2.svg" alt="logo" />
+                  <h4 class="fs-5 mt-2">HTML</h4>
+                </li>
+                <li>
+                  <img src="./images/Ellipse 3.svg" alt="logo" />
+                  <h4 class="fs-5 mt-2">Css</h4>
+                </li>
+              </ul>
+              <div class="d-flex justify-content-between">
+                <h3 class="h3 fs-4">Frameworks</h3>
+                <img src="./images/side-arrow.svg" alt="side arrow" />
+              </div>
+              <hr />
+              <div class="d-flex justify-content-between">
+                <h3 class="h3 fs-4">Skills</h3>
+                <img src="./images/side-arrow.svg" alt="side arrow" />
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="contact" class="container-fluid">
+        <div class="container">
+          <h2 class="h2 text-center text-light fw-bolder fs-1 mb-4">
+            Contact me
+          </h2>
+          <p class="text-light fs-5 text-center">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. We’d
+            love to help with it.
+          </p>
+          <form class="d-flex flex-column">
+            <div class="form-group">
+              <label for="username"></label>
+              <input
+                type="text"
+                maxlength="30"
+                name="username"
+                id="username"
+                class="form-control"
+                placeholder="User name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="user_email"></label>
+              <input
+                type="email"
+                name="user_email"
+                id="user_email"
+                class="form-control"
+                placeholder="User email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message"></label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="8"
+                class="form-control"
+                placeholder="Write your message here."
+                required
+                maxlength="300"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-light">
+              Get In Touch
+            </button>
+          </form>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
